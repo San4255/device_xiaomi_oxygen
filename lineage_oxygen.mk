@@ -24,9 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
-# TODO : NEED FILE
 # Inherit from oxygen device
-#$(call inherit-product, device/xiaomi/oxygen/device.mk)
+$(call inherit-product, device/xiaomi/oxygen/device.mk)
 
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
